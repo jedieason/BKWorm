@@ -46,6 +46,24 @@
             margin: 0;
         }
 
+        .download-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            background-color: #fff;
+            color: black;
+            text-decoration: none;
+            border-radius: 10px;
+            border: 2px solid #efefef;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background-color: rgb(233, 233, 233);
+            /* color: white; */
+        }
+
         .week {
             margin-bottom: 10px;
         }
@@ -91,9 +109,15 @@
         <div class="week">
             <button class="week-title">Week 1 - 9/4, 9/5, 9/6</button>
             <div class="week-details">
-                <embed src="Files/Week 1/1 amino acids and peptides.pdf" type="application/pdf" width="100%" height="500wv">
-                <embed src="Files/Week 1/2 Proteins Determination of Primary Structure.pdf" type="application/pdf" width="100%" height="500wv">
-                <embed src="Files/Week 1/Protein-structure_NLC-2024.pdf" type="application/pdf" width="100%" height="500wv">
+                <a href="Files/Week 1/1 amino acids and peptides.pdf" class="download-btn" download>
+                    Aamino Acids and Peptides
+                </a>
+                <a href="Files/Week 1/2 Proteins Determination of Primary Structure.pdf" class="download-btn" download>
+                    Proteins: Determination of Primary Structure
+                </a>
+                <a href="Files/Week 1/Protein-structure_NLC-2024.pdf" class="download-btn" download>
+                    Protein Structure
+                </a>
                 <p>9/4 三 10:20-11:10 1 Introduction 李明學(1) 張雅惠</p>
                 <audio controls src="Audio/BioChem0904-1.m4a"></audio>
                 <p>9/4 三 11:20-12:10 1 Amino Acids & Peptides 陳秉民(2) 張雅惠</p>
